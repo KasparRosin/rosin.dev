@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const END_DATE = new Date("Dec 15, 2023 12:00:00").getTime();
+const END_DATE = new Date("Dec 22, 2023 12:00:00").getTime();
 
 export default function Index() {
   const [isExpired, setIsExpired] = useState(false)
